@@ -57,3 +57,13 @@ mvn spring-boot:run
 ou
 
 ./mvnw spring-boot:run
+
+# 7. Acessar o sistema
+
+Na URL do seu navegador, coloque:
+
+http://localhost:8080/books
+
+ou
+
+http://localhost:8080/authors
