@@ -1,6 +1,9 @@
 # Projeto Biblioteca com Java Spring Boot
-Aluno:Lucas Bezerra da Silva
+
+Aluno: Lucas Bezerra da Silva
+
 Ferramenta: Java Spring Boot
+
 Descrição: Um sistema web simples de biblioteca desenvolvido em Java Spring Boot, contendo CRUD completo e relacionamento 1:N entre Autor e Livro.
 
 # Antes de executar o projeto, você precisa ter instalado:
