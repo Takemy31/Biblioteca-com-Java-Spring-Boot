@@ -5,7 +5,9 @@ Descrição: Um sistema web simples de biblioteca desenvolvido em Java Spring Bo
 
 # Antes de executar o projeto, você precisa ter instalado:
 Java JDK 17+
+
 Maven
+
 MySQL
 
 # Clonando o Projeto
@@ -18,15 +20,20 @@ cd library
 
 # 3. Configurando o Banco de Dados
 Crie um banco no MySQL:
+
 CREATE DATABASE biblioteca;
 
 # 4. Configuração do application.properties
 No arquivo veja as especificações do seu banco e altere oque for necessario:
 src/main/resources/application.properties
 
+
 spring.datasource.url=jdbc:mysql://localhost:3306/biblioteca
+
 spring.datasource.username=root
+
 spring.datasource.password=SUA_SENHA
+
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
@@ -36,10 +43,14 @@ O Maven instalará automaticamente as dependências do projeto.
 Mas se quiser baixar manualmente pelo terminal
 
 Abra o terminal na pasta do projeto e execute:
+
 mvn clean install
 
 # 6. Executar o sistema
 No terminal na pasta do projeto execute:
+
 mvn spring-boot:run
+
 ou
+
 ./mvnw spring-boot:run
